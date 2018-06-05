@@ -107,7 +107,7 @@ describe("reducers", () => {
     });
 
     it("should handle ADD_TO_BLACKLIST action when the contact doesn't exist", () => {
-      expect(contacts(state, { type: Actions.CARD_ADD, payload: 99 })).toEqual(
+      expect(contacts(state, { type: Actions.ADD_TO_BLACKLIST, payload: 99 })).toEqual(
         state
       );
     });
