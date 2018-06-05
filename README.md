@@ -22,7 +22,7 @@ Noted that the project gets data from port 4000 and is using **data.json** in **
 json-server data/data.json -p 4000
 ```
 Make sure that the server is up and running by going to *localhost:4000/contacts*.
-Now you can start the project.
+Now you can open a new terminal tab and start the project.
 
 ```
 npm start
