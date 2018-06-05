@@ -1,0 +1,1609 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`BlackListPage component should render successfully 1`] = `
+ReactWrapper {
+  "length": 1,
+  Symbol(enzyme.__unrendered__): <BlackListPage
+    addToBlackList={[MockFunction]}
+    blackListContacts={
+      Array [
+        Object {
+          "firstName": "John",
+          "lastName": "Smith",
+          "phoneNumber": "622-456-9888",
+        },
+        Object {
+          "firstName": "Chris",
+          "lastName": "Nieu",
+          "phoneNumber": "395-497-2648",
+        },
+      ]
+    }
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "function",
+    "props": Object {
+      "addToBlackList": [MockFunction],
+      "blackListContacts": Array [
+        Object {
+          "firstName": "John",
+          "lastName": "Smith",
+          "phoneNumber": "622-456-9888",
+        },
+        Object {
+          "firstName": "Chris",
+          "lastName": "Nieu",
+          "phoneNumber": "395-497-2648",
+        },
+      ],
+    },
+    "ref": null,
+    "rendered": Object {
+      "instance": <div
+        class="css-v8wm0v"
+        id="black-list-container"
+      >
+        <p
+          class="css-106ilfp"
+        >
+          Black list
+        </p>
+        <div
+          class="css-rd7ld2-contact-root"
+        >
+          <div
+            class="css-nfzrom-avatar-root"
+          >
+            <svg
+              class="css-1p0isk4-avatar"
+              viewBox="0 0 32 32"
+            >
+              <path
+                d="M0 32v-3c0-4.484 5.649-6.179 13.099-6.862-1.636-1.014-2.92-3.864-3.589-6.14-0.003 0-0.006 0.002-0.010 0.002-0.068 0-1.5-1.791-1.5-4 0-1.938-0.138-3.554 1.007-3.92-0.001-0.027-0.007-0.053-0.007-0.080 0-2.457 1.271-4.61 3.187-5.859 0.495-1.235 2.004-2.141 3.813-2.141s3.318 0.906 3.813 2.141c1.916 1.249 3.187 3.402 3.187 5.859 0 0.027-0.006 0.053-0.007 0.080 1.145 0.366 1.007 1.982 1.007 3.92 0 2.209-1.588 4-1.5 4-0.004 0-0.007-0.002-0.010-0.002-0.669 2.275-1.953 5.126-3.589 6.14 7.45 0.683 13.099 2.315 13.099 6.862v3h-32z"
+              />
+            </svg>
+          </div>
+          <span
+            class="css-1g8jtq4"
+          >
+            First Name
+             
+            <strong>
+              Last Name
+            </strong>
+          </span>
+          <span
+            class="css-1iwexof"
+          />
+          <span
+            class="css-1g8jtq4"
+          >
+            <a
+              class="css-uyawua"
+              href="tel:122-345-654"
+            >
+              122-345-654
+            </a>
+          </span>
+          <button
+            class="css-9qt8no-button"
+          >
+            Block
+          </button>
+        </div>
+        <div
+          class="css-rd7ld2-contact-root"
+        >
+          <div
+            class="css-nfzrom-avatar-root"
+          >
+            <svg
+              class="css-1p0isk4-avatar"
+              viewBox="0 0 32 32"
+            >
+              <path
+                d="M0 32v-3c0-4.484 5.649-6.179 13.099-6.862-1.636-1.014-2.92-3.864-3.589-6.14-0.003 0-0.006 0.002-0.010 0.002-0.068 0-1.5-1.791-1.5-4 0-1.938-0.138-3.554 1.007-3.92-0.001-0.027-0.007-0.053-0.007-0.080 0-2.457 1.271-4.61 3.187-5.859 0.495-1.235 2.004-2.141 3.813-2.141s3.318 0.906 3.813 2.141c1.916 1.249 3.187 3.402 3.187 5.859 0 0.027-0.006 0.053-0.007 0.080 1.145 0.366 1.007 1.982 1.007 3.92 0 2.209-1.588 4-1.5 4-0.004 0-0.007-0.002-0.010-0.002-0.669 2.275-1.953 5.126-3.589 6.14 7.45 0.683 13.099 2.315 13.099 6.862v3h-32z"
+              />
+            </svg>
+          </div>
+          <span
+            class="css-1g8jtq4"
+          >
+            First Name
+             
+            <strong>
+              Last Name
+            </strong>
+          </span>
+          <span
+            class="css-1iwexof"
+          />
+          <span
+            class="css-1g8jtq4"
+          >
+            <a
+              class="css-uyawua"
+              href="tel:122-345-654"
+            >
+              122-345-654
+            </a>
+          </span>
+          <button
+            class="css-9qt8no-button"
+          >
+            Block
+          </button>
+        </div>
+      </div>,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <p
+            className="css-106ilfp"
+          >
+            Black list
+          </p>,
+          false,
+          Array [
+            <ContactItem
+              firstName="First Name"
+              isBlocked={false}
+              lastName="Last Name"
+              onBlock={[Function]}
+              phoneNumber="122-345-654"
+            />,
+            <ContactItem
+              firstName="First Name"
+              isBlocked={false}
+              lastName="Last Name"
+              onBlock={[Function]}
+              phoneNumber="122-345-654"
+            />,
+          ],
+        ],
+        "className": "css-v8wm0v",
+        "id": "black-list-container",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": <p
+            class="css-106ilfp"
+          >
+            Black list
+          </p>,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "Black list",
+            "className": "css-106ilfp",
+          },
+          "ref": null,
+          "rendered": Array [
+            "Black list",
+          ],
+          "type": "p",
+        },
+        Object {
+          "instance": null,
+          "key": "contact-item-0",
+          "nodeType": "function",
+          "props": Object {
+            "company": undefined,
+            "firstName": "First Name",
+            "isBlocked": false,
+            "lastName": "Last Name",
+            "onBlock": [Function],
+            "phoneNumber": "122-345-654",
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": <div
+              class="css-rd7ld2-contact-root"
+            >
+              <div
+                class="css-nfzrom-avatar-root"
+              >
+                <svg
+                  class="css-1p0isk4-avatar"
+                  viewBox="0 0 32 32"
+                >
+                  <path
+                    d="M0 32v-3c0-4.484 5.649-6.179 13.099-6.862-1.636-1.014-2.92-3.864-3.589-6.14-0.003 0-0.006 0.002-0.010 0.002-0.068 0-1.5-1.791-1.5-4 0-1.938-0.138-3.554 1.007-3.92-0.001-0.027-0.007-0.053-0.007-0.080 0-2.457 1.271-4.61 3.187-5.859 0.495-1.235 2.004-2.141 3.813-2.141s3.318 0.906 3.813 2.141c1.916 1.249 3.187 3.402 3.187 5.859 0 0.027-0.006 0.053-0.007 0.080 1.145 0.366 1.007 1.982 1.007 3.92 0 2.209-1.588 4-1.5 4-0.004 0-0.007-0.002-0.010-0.002-0.669 2.275-1.953 5.126-3.589 6.14 7.45 0.683 13.099 2.315 13.099 6.862v3h-32z"
+                  />
+                </svg>
+              </div>
+              <span
+                class="css-1g8jtq4"
+              >
+                First Name
+                 
+                <strong>
+                  Last Name
+                </strong>
+              </span>
+              <span
+                class="css-1iwexof"
+              />
+              <span
+                class="css-1g8jtq4"
+              >
+                <a
+                  class="css-uyawua"
+                  href="tel:122-345-654"
+                >
+                  122-345-654
+                </a>
+              </span>
+              <button
+                class="css-9qt8no-button"
+              >
+                Block
+              </button>
+            </div>,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <div
+                  className="css-nfzrom-avatar-root"
+                >
+                  <svg
+                    className="css-1p0isk4-avatar"
+                    viewBox="0 0 32 32"
+                  >
+                    <path
+                      d="M0 32v-3c0-4.484 5.649-6.179 13.099-6.862-1.636-1.014-2.92-3.864-3.589-6.14-0.003 0-0.006 0.002-0.010 0.002-0.068 0-1.5-1.791-1.5-4 0-1.938-0.138-3.554 1.007-3.92-0.001-0.027-0.007-0.053-0.007-0.080 0-2.457 1.271-4.61 3.187-5.859 0.495-1.235 2.004-2.141 3.813-2.141s3.318 0.906 3.813 2.141c1.916 1.249 3.187 3.402 3.187 5.859 0 0.027-0.006 0.053-0.007 0.080 1.145 0.366 1.007 1.982 1.007 3.92 0 2.209-1.588 4-1.5 4-0.004 0-0.007-0.002-0.010-0.002-0.669 2.275-1.953 5.126-3.589 6.14 7.45 0.683 13.099 2.315 13.099 6.862v3h-32z"
+                    />
+                  </svg>
+                </div>,
+                <span
+                  className="css-1g8jtq4"
+                >
+                  First Name
+                   
+                  <strong>
+                    Last Name
+                  </strong>
+                </span>,
+                <span
+                  className="css-1iwexof"
+                />,
+                <span
+                  className="css-1g8jtq4"
+                >
+                  <a
+                    className="css-uyawua"
+                    href="tel:122-345-654"
+                  >
+                    122-345-654
+                  </a>
+                </span>,
+                <button
+                  className="css-9qt8no-button"
+                  onClick={[Function]}
+                >
+                  Block
+                </button>,
+              ],
+              "className": "css-rd7ld2-contact-root",
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": <div
+                  class="css-nfzrom-avatar-root"
+                >
+                  <svg
+                    class="css-1p0isk4-avatar"
+                    viewBox="0 0 32 32"
+                  >
+                    <path
+                      d="M0 32v-3c0-4.484 5.649-6.179 13.099-6.862-1.636-1.014-2.92-3.864-3.589-6.14-0.003 0-0.006 0.002-0.010 0.002-0.068 0-1.5-1.791-1.5-4 0-1.938-0.138-3.554 1.007-3.92-0.001-0.027-0.007-0.053-0.007-0.080 0-2.457 1.271-4.61 3.187-5.859 0.495-1.235 2.004-2.141 3.813-2.141s3.318 0.906 3.813 2.141c1.916 1.249 3.187 3.402 3.187 5.859 0 0.027-0.006 0.053-0.007 0.080 1.145 0.366 1.007 1.982 1.007 3.92 0 2.209-1.588 4-1.5 4-0.004 0-0.007-0.002-0.010-0.002-0.669 2.275-1.953 5.126-3.589 6.14 7.45 0.683 13.099 2.315 13.099 6.862v3h-32z"
+                    />
+                  </svg>
+                </div>,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": <svg
+                    className="css-1p0isk4-avatar"
+                    viewBox="0 0 32 32"
+                  >
+                    <path
+                      d="M0 32v-3c0-4.484 5.649-6.179 13.099-6.862-1.636-1.014-2.92-3.864-3.589-6.14-0.003 0-0.006 0.002-0.010 0.002-0.068 0-1.5-1.791-1.5-4 0-1.938-0.138-3.554 1.007-3.92-0.001-0.027-0.007-0.053-0.007-0.080 0-2.457 1.271-4.61 3.187-5.859 0.495-1.235 2.004-2.141 3.813-2.141s3.318 0.906 3.813 2.141c1.916 1.249 3.187 3.402 3.187 5.859 0 0.027-0.006 0.053-0.007 0.080 1.145 0.366 1.007 1.982 1.007 3.92 0 2.209-1.588 4-1.5 4-0.004 0-0.007-0.002-0.010-0.002-0.669 2.275-1.953 5.126-3.589 6.14 7.45 0.683 13.099 2.315 13.099 6.862v3h-32z"
+                    />
+                  </svg>,
+                  "className": "css-nfzrom-avatar-root",
+                },
+                "ref": null,
+                "rendered": Array [
+                  Object {
+                    "instance": <svg
+                      class="css-1p0isk4-avatar"
+                      viewBox="0 0 32 32"
+                    >
+                      <path
+                        d="M0 32v-3c0-4.484 5.649-6.179 13.099-6.862-1.636-1.014-2.92-3.864-3.589-6.14-0.003 0-0.006 0.002-0.010 0.002-0.068 0-1.5-1.791-1.5-4 0-1.938-0.138-3.554 1.007-3.92-0.001-0.027-0.007-0.053-0.007-0.080 0-2.457 1.271-4.61 3.187-5.859 0.495-1.235 2.004-2.141 3.813-2.141s3.318 0.906 3.813 2.141c1.916 1.249 3.187 3.402 3.187 5.859 0 0.027-0.006 0.053-0.007 0.080 1.145 0.366 1.007 1.982 1.007 3.92 0 2.209-1.588 4-1.5 4-0.004 0-0.007-0.002-0.010-0.002-0.669 2.275-1.953 5.126-3.589 6.14 7.45 0.683 13.099 2.315 13.099 6.862v3h-32z"
+                      />
+                    </svg>,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": <path
+                        d="M0 32v-3c0-4.484 5.649-6.179 13.099-6.862-1.636-1.014-2.92-3.864-3.589-6.14-0.003 0-0.006 0.002-0.010 0.002-0.068 0-1.5-1.791-1.5-4 0-1.938-0.138-3.554 1.007-3.92-0.001-0.027-0.007-0.053-0.007-0.080 0-2.457 1.271-4.61 3.187-5.859 0.495-1.235 2.004-2.141 3.813-2.141s3.318 0.906 3.813 2.141c1.916 1.249 3.187 3.402 3.187 5.859 0 0.027-0.006 0.053-0.007 0.080 1.145 0.366 1.007 1.982 1.007 3.92 0 2.209-1.588 4-1.5 4-0.004 0-0.007-0.002-0.010-0.002-0.669 2.275-1.953 5.126-3.589 6.14 7.45 0.683 13.099 2.315 13.099 6.862v3h-32z"
+                      />,
+                      "className": "css-1p0isk4-avatar",
+                      "viewBox": "0 0 32 32",
+                    },
+                    "ref": null,
+                    "rendered": Array [
+                      Object {
+                        "instance": <path
+                          d="M0 32v-3c0-4.484 5.649-6.179 13.099-6.862-1.636-1.014-2.92-3.864-3.589-6.14-0.003 0-0.006 0.002-0.010 0.002-0.068 0-1.5-1.791-1.5-4 0-1.938-0.138-3.554 1.007-3.92-0.001-0.027-0.007-0.053-0.007-0.080 0-2.457 1.271-4.61 3.187-5.859 0.495-1.235 2.004-2.141 3.813-2.141s3.318 0.906 3.813 2.141c1.916 1.249 3.187 3.402 3.187 5.859 0 0.027-0.006 0.053-0.007 0.080 1.145 0.366 1.007 1.982 1.007 3.92 0 2.209-1.588 4-1.5 4-0.004 0-0.007-0.002-0.010-0.002-0.669 2.275-1.953 5.126-3.589 6.14 7.45 0.683 13.099 2.315 13.099 6.862v3h-32z"
+                        />,
+                        "key": undefined,
+                        "nodeType": "host",
+                        "props": Object {
+                          "d": "M0 32v-3c0-4.484 5.649-6.179 13.099-6.862-1.636-1.014-2.92-3.864-3.589-6.14-0.003 0-0.006 0.002-0.010 0.002-0.068 0-1.5-1.791-1.5-4 0-1.938-0.138-3.554 1.007-3.92-0.001-0.027-0.007-0.053-0.007-0.080 0-2.457 1.271-4.61 3.187-5.859 0.495-1.235 2.004-2.141 3.813-2.141s3.318 0.906 3.813 2.141c1.916 1.249 3.187 3.402 3.187 5.859 0 0.027-0.006 0.053-0.007 0.080 1.145 0.366 1.007 1.982 1.007 3.92 0 2.209-1.588 4-1.5 4-0.004 0-0.007-0.002-0.010-0.002-0.669 2.275-1.953 5.126-3.589 6.14 7.45 0.683 13.099 2.315 13.099 6.862v3h-32z",
+                        },
+                        "ref": null,
+                        "rendered": Array [
+                          undefined,
+                        ],
+                        "type": "path",
+                      },
+                    ],
+                    "type": "svg",
+                  },
+                ],
+                "type": "div",
+              },
+              Object {
+                "instance": <span
+                  class="css-1g8jtq4"
+                >
+                  First Name
+                   
+                  <strong>
+                    Last Name
+                  </strong>
+                </span>,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": Array [
+                    "First Name",
+                    " ",
+                    <strong>
+                      Last Name
+                    </strong>,
+                  ],
+                  "className": "css-1g8jtq4",
+                },
+                "ref": null,
+                "rendered": Array [
+                  "First Name",
+                  " ",
+                  Object {
+                    "instance": <strong>
+                      Last Name
+                    </strong>,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": "Last Name",
+                    },
+                    "ref": null,
+                    "rendered": Array [
+                      "Last Name",
+                    ],
+                    "type": "strong",
+                  },
+                ],
+                "type": "span",
+              },
+              Object {
+                "instance": <span
+                  class="css-1iwexof"
+                />,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": undefined,
+                  "className": "css-1iwexof",
+                },
+                "ref": null,
+                "rendered": Array [
+                  undefined,
+                ],
+                "type": "span",
+              },
+              Object {
+                "instance": <span
+                  class="css-1g8jtq4"
+                >
+                  <a
+                    class="css-uyawua"
+                    href="tel:122-345-654"
+                  >
+                    122-345-654
+                  </a>
+                </span>,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": <a
+                    className="css-uyawua"
+                    href="tel:122-345-654"
+                  >
+                    122-345-654
+                  </a>,
+                  "className": "css-1g8jtq4",
+                },
+                "ref": null,
+                "rendered": Array [
+                  Object {
+                    "instance": <a
+                      class="css-uyawua"
+                      href="tel:122-345-654"
+                    >
+                      122-345-654
+                    </a>,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": "122-345-654",
+                      "className": "css-uyawua",
+                      "href": "tel:122-345-654",
+                    },
+                    "ref": null,
+                    "rendered": Array [
+                      "122-345-654",
+                    ],
+                    "type": "a",
+                  },
+                ],
+                "type": "span",
+              },
+              Object {
+                "instance": <button
+                  class="css-9qt8no-button"
+                >
+                  Block
+                </button>,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "Block",
+                  "className": "css-9qt8no-button",
+                  "onClick": [Function],
+                },
+                "ref": null,
+                "rendered": Array [
+                  "Block",
+                ],
+                "type": "button",
+              },
+            ],
+            "type": "div",
+          },
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": "contact-item-1",
+          "nodeType": "function",
+          "props": Object {
+            "company": undefined,
+            "firstName": "First Name",
+            "isBlocked": false,
+            "lastName": "Last Name",
+            "onBlock": [Function],
+            "phoneNumber": "122-345-654",
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": <div
+              class="css-rd7ld2-contact-root"
+            >
+              <div
+                class="css-nfzrom-avatar-root"
+              >
+                <svg
+                  class="css-1p0isk4-avatar"
+                  viewBox="0 0 32 32"
+                >
+                  <path
+                    d="M0 32v-3c0-4.484 5.649-6.179 13.099-6.862-1.636-1.014-2.92-3.864-3.589-6.14-0.003 0-0.006 0.002-0.010 0.002-0.068 0-1.5-1.791-1.5-4 0-1.938-0.138-3.554 1.007-3.92-0.001-0.027-0.007-0.053-0.007-0.080 0-2.457 1.271-4.61 3.187-5.859 0.495-1.235 2.004-2.141 3.813-2.141s3.318 0.906 3.813 2.141c1.916 1.249 3.187 3.402 3.187 5.859 0 0.027-0.006 0.053-0.007 0.080 1.145 0.366 1.007 1.982 1.007 3.92 0 2.209-1.588 4-1.5 4-0.004 0-0.007-0.002-0.010-0.002-0.669 2.275-1.953 5.126-3.589 6.14 7.45 0.683 13.099 2.315 13.099 6.862v3h-32z"
+                  />
+                </svg>
+              </div>
+              <span
+                class="css-1g8jtq4"
+              >
+                First Name
+                 
+                <strong>
+                  Last Name
+                </strong>
+              </span>
+              <span
+                class="css-1iwexof"
+              />
+              <span
+                class="css-1g8jtq4"
+              >
+                <a
+                  class="css-uyawua"
+                  href="tel:122-345-654"
+                >
+                  122-345-654
+                </a>
+              </span>
+              <button
+                class="css-9qt8no-button"
+              >
+                Block
+              </button>
+            </div>,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <div
+                  className="css-nfzrom-avatar-root"
+                >
+                  <svg
+                    className="css-1p0isk4-avatar"
+                    viewBox="0 0 32 32"
+                  >
+                    <path
+                      d="M0 32v-3c0-4.484 5.649-6.179 13.099-6.862-1.636-1.014-2.92-3.864-3.589-6.14-0.003 0-0.006 0.002-0.010 0.002-0.068 0-1.5-1.791-1.5-4 0-1.938-0.138-3.554 1.007-3.92-0.001-0.027-0.007-0.053-0.007-0.080 0-2.457 1.271-4.61 3.187-5.859 0.495-1.235 2.004-2.141 3.813-2.141s3.318 0.906 3.813 2.141c1.916 1.249 3.187 3.402 3.187 5.859 0 0.027-0.006 0.053-0.007 0.080 1.145 0.366 1.007 1.982 1.007 3.92 0 2.209-1.588 4-1.5 4-0.004 0-0.007-0.002-0.010-0.002-0.669 2.275-1.953 5.126-3.589 6.14 7.45 0.683 13.099 2.315 13.099 6.862v3h-32z"
+                    />
+                  </svg>
+                </div>,
+                <span
+                  className="css-1g8jtq4"
+                >
+                  First Name
+                   
+                  <strong>
+                    Last Name
+                  </strong>
+                </span>,
+                <span
+                  className="css-1iwexof"
+                />,
+                <span
+                  className="css-1g8jtq4"
+                >
+                  <a
+                    className="css-uyawua"
+                    href="tel:122-345-654"
+                  >
+                    122-345-654
+                  </a>
+                </span>,
+                <button
+                  className="css-9qt8no-button"
+                  onClick={[Function]}
+                >
+                  Block
+                </button>,
+              ],
+              "className": "css-rd7ld2-contact-root",
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": <div
+                  class="css-nfzrom-avatar-root"
+                >
+                  <svg
+                    class="css-1p0isk4-avatar"
+                    viewBox="0 0 32 32"
+                  >
+                    <path
+                      d="M0 32v-3c0-4.484 5.649-6.179 13.099-6.862-1.636-1.014-2.92-3.864-3.589-6.14-0.003 0-0.006 0.002-0.010 0.002-0.068 0-1.5-1.791-1.5-4 0-1.938-0.138-3.554 1.007-3.92-0.001-0.027-0.007-0.053-0.007-0.080 0-2.457 1.271-4.61 3.187-5.859 0.495-1.235 2.004-2.141 3.813-2.141s3.318 0.906 3.813 2.141c1.916 1.249 3.187 3.402 3.187 5.859 0 0.027-0.006 0.053-0.007 0.080 1.145 0.366 1.007 1.982 1.007 3.92 0 2.209-1.588 4-1.5 4-0.004 0-0.007-0.002-0.010-0.002-0.669 2.275-1.953 5.126-3.589 6.14 7.45 0.683 13.099 2.315 13.099 6.862v3h-32z"
+                    />
+                  </svg>
+                </div>,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": <svg
+                    className="css-1p0isk4-avatar"
+                    viewBox="0 0 32 32"
+                  >
+                    <path
+                      d="M0 32v-3c0-4.484 5.649-6.179 13.099-6.862-1.636-1.014-2.92-3.864-3.589-6.14-0.003 0-0.006 0.002-0.010 0.002-0.068 0-1.5-1.791-1.5-4 0-1.938-0.138-3.554 1.007-3.92-0.001-0.027-0.007-0.053-0.007-0.080 0-2.457 1.271-4.61 3.187-5.859 0.495-1.235 2.004-2.141 3.813-2.141s3.318 0.906 3.813 2.141c1.916 1.249 3.187 3.402 3.187 5.859 0 0.027-0.006 0.053-0.007 0.080 1.145 0.366 1.007 1.982 1.007 3.92 0 2.209-1.588 4-1.5 4-0.004 0-0.007-0.002-0.010-0.002-0.669 2.275-1.953 5.126-3.589 6.14 7.45 0.683 13.099 2.315 13.099 6.862v3h-32z"
+                    />
+                  </svg>,
+                  "className": "css-nfzrom-avatar-root",
+                },
+                "ref": null,
+                "rendered": Array [
+                  Object {
+                    "instance": <svg
+                      class="css-1p0isk4-avatar"
+                      viewBox="0 0 32 32"
+                    >
+                      <path
+                        d="M0 32v-3c0-4.484 5.649-6.179 13.099-6.862-1.636-1.014-2.92-3.864-3.589-6.14-0.003 0-0.006 0.002-0.010 0.002-0.068 0-1.5-1.791-1.5-4 0-1.938-0.138-3.554 1.007-3.92-0.001-0.027-0.007-0.053-0.007-0.080 0-2.457 1.271-4.61 3.187-5.859 0.495-1.235 2.004-2.141 3.813-2.141s3.318 0.906 3.813 2.141c1.916 1.249 3.187 3.402 3.187 5.859 0 0.027-0.006 0.053-0.007 0.080 1.145 0.366 1.007 1.982 1.007 3.92 0 2.209-1.588 4-1.5 4-0.004 0-0.007-0.002-0.010-0.002-0.669 2.275-1.953 5.126-3.589 6.14 7.45 0.683 13.099 2.315 13.099 6.862v3h-32z"
+                      />
+                    </svg>,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": <path
+                        d="M0 32v-3c0-4.484 5.649-6.179 13.099-6.862-1.636-1.014-2.92-3.864-3.589-6.14-0.003 0-0.006 0.002-0.010 0.002-0.068 0-1.5-1.791-1.5-4 0-1.938-0.138-3.554 1.007-3.92-0.001-0.027-0.007-0.053-0.007-0.080 0-2.457 1.271-4.61 3.187-5.859 0.495-1.235 2.004-2.141 3.813-2.141s3.318 0.906 3.813 2.141c1.916 1.249 3.187 3.402 3.187 5.859 0 0.027-0.006 0.053-0.007 0.080 1.145 0.366 1.007 1.982 1.007 3.92 0 2.209-1.588 4-1.5 4-0.004 0-0.007-0.002-0.010-0.002-0.669 2.275-1.953 5.126-3.589 6.14 7.45 0.683 13.099 2.315 13.099 6.862v3h-32z"
+                      />,
+                      "className": "css-1p0isk4-avatar",
+                      "viewBox": "0 0 32 32",
+                    },
+                    "ref": null,
+                    "rendered": Array [
+                      Object {
+                        "instance": <path
+                          d="M0 32v-3c0-4.484 5.649-6.179 13.099-6.862-1.636-1.014-2.92-3.864-3.589-6.14-0.003 0-0.006 0.002-0.010 0.002-0.068 0-1.5-1.791-1.5-4 0-1.938-0.138-3.554 1.007-3.92-0.001-0.027-0.007-0.053-0.007-0.080 0-2.457 1.271-4.61 3.187-5.859 0.495-1.235 2.004-2.141 3.813-2.141s3.318 0.906 3.813 2.141c1.916 1.249 3.187 3.402 3.187 5.859 0 0.027-0.006 0.053-0.007 0.080 1.145 0.366 1.007 1.982 1.007 3.92 0 2.209-1.588 4-1.5 4-0.004 0-0.007-0.002-0.010-0.002-0.669 2.275-1.953 5.126-3.589 6.14 7.45 0.683 13.099 2.315 13.099 6.862v3h-32z"
+                        />,
+                        "key": undefined,
+                        "nodeType": "host",
+                        "props": Object {
+                          "d": "M0 32v-3c0-4.484 5.649-6.179 13.099-6.862-1.636-1.014-2.92-3.864-3.589-6.14-0.003 0-0.006 0.002-0.010 0.002-0.068 0-1.5-1.791-1.5-4 0-1.938-0.138-3.554 1.007-3.92-0.001-0.027-0.007-0.053-0.007-0.080 0-2.457 1.271-4.61 3.187-5.859 0.495-1.235 2.004-2.141 3.813-2.141s3.318 0.906 3.813 2.141c1.916 1.249 3.187 3.402 3.187 5.859 0 0.027-0.006 0.053-0.007 0.080 1.145 0.366 1.007 1.982 1.007 3.92 0 2.209-1.588 4-1.5 4-0.004 0-0.007-0.002-0.010-0.002-0.669 2.275-1.953 5.126-3.589 6.14 7.45 0.683 13.099 2.315 13.099 6.862v3h-32z",
+                        },
+                        "ref": null,
+                        "rendered": Array [
+                          undefined,
+                        ],
+                        "type": "path",
+                      },
+                    ],
+                    "type": "svg",
+                  },
+                ],
+                "type": "div",
+              },
+              Object {
+                "instance": <span
+                  class="css-1g8jtq4"
+                >
+                  First Name
+                   
+                  <strong>
+                    Last Name
+                  </strong>
+                </span>,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": Array [
+                    "First Name",
+                    " ",
+                    <strong>
+                      Last Name
+                    </strong>,
+                  ],
+                  "className": "css-1g8jtq4",
+                },
+                "ref": null,
+                "rendered": Array [
+                  "First Name",
+                  " ",
+                  Object {
+                    "instance": <strong>
+                      Last Name
+                    </strong>,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": "Last Name",
+                    },
+                    "ref": null,
+                    "rendered": Array [
+                      "Last Name",
+                    ],
+                    "type": "strong",
+                  },
+                ],
+                "type": "span",
+              },
+              Object {
+                "instance": <span
+                  class="css-1iwexof"
+                />,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": undefined,
+                  "className": "css-1iwexof",
+                },
+                "ref": null,
+                "rendered": Array [
+                  undefined,
+                ],
+                "type": "span",
+              },
+              Object {
+                "instance": <span
+                  class="css-1g8jtq4"
+                >
+                  <a
+                    class="css-uyawua"
+                    href="tel:122-345-654"
+                  >
+                    122-345-654
+                  </a>
+                </span>,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": <a
+                    className="css-uyawua"
+                    href="tel:122-345-654"
+                  >
+                    122-345-654
+                  </a>,
+                  "className": "css-1g8jtq4",
+                },
+                "ref": null,
+                "rendered": Array [
+                  Object {
+                    "instance": <a
+                      class="css-uyawua"
+                      href="tel:122-345-654"
+                    >
+                      122-345-654
+                    </a>,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": "122-345-654",
+                      "className": "css-uyawua",
+                      "href": "tel:122-345-654",
+                    },
+                    "ref": null,
+                    "rendered": Array [
+                      "122-345-654",
+                    ],
+                    "type": "a",
+                  },
+                ],
+                "type": "span",
+              },
+              Object {
+                "instance": <button
+                  class="css-9qt8no-button"
+                >
+                  Block
+                </button>,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "Block",
+                  "className": "css-9qt8no-button",
+                  "onClick": [Function],
+                },
+                "ref": null,
+                "rendered": Array [
+                  "Block",
+                ],
+                "type": "button",
+              },
+            ],
+            "type": "div",
+          },
+          "type": [Function],
+        },
+      ],
+      "type": "div",
+    },
+    "type": [Function],
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "function",
+      "props": Object {
+        "addToBlackList": [MockFunction],
+        "blackListContacts": Array [
+          Object {
+            "firstName": "John",
+            "lastName": "Smith",
+            "phoneNumber": "622-456-9888",
+          },
+          Object {
+            "firstName": "Chris",
+            "lastName": "Nieu",
+            "phoneNumber": "395-497-2648",
+          },
+        ],
+      },
+      "ref": null,
+      "rendered": Object {
+        "instance": <div
+          class="css-v8wm0v"
+          id="black-list-container"
+        >
+          <p
+            class="css-106ilfp"
+          >
+            Black list
+          </p>
+          <div
+            class="css-rd7ld2-contact-root"
+          >
+            <div
+              class="css-nfzrom-avatar-root"
+            >
+              <svg
+                class="css-1p0isk4-avatar"
+                viewBox="0 0 32 32"
+              >
+                <path
+                  d="M0 32v-3c0-4.484 5.649-6.179 13.099-6.862-1.636-1.014-2.92-3.864-3.589-6.14-0.003 0-0.006 0.002-0.010 0.002-0.068 0-1.5-1.791-1.5-4 0-1.938-0.138-3.554 1.007-3.92-0.001-0.027-0.007-0.053-0.007-0.080 0-2.457 1.271-4.61 3.187-5.859 0.495-1.235 2.004-2.141 3.813-2.141s3.318 0.906 3.813 2.141c1.916 1.249 3.187 3.402 3.187 5.859 0 0.027-0.006 0.053-0.007 0.080 1.145 0.366 1.007 1.982 1.007 3.92 0 2.209-1.588 4-1.5 4-0.004 0-0.007-0.002-0.010-0.002-0.669 2.275-1.953 5.126-3.589 6.14 7.45 0.683 13.099 2.315 13.099 6.862v3h-32z"
+                />
+              </svg>
+            </div>
+            <span
+              class="css-1g8jtq4"
+            >
+              First Name
+               
+              <strong>
+                Last Name
+              </strong>
+            </span>
+            <span
+              class="css-1iwexof"
+            />
+            <span
+              class="css-1g8jtq4"
+            >
+              <a
+                class="css-uyawua"
+                href="tel:122-345-654"
+              >
+                122-345-654
+              </a>
+            </span>
+            <button
+              class="css-9qt8no-button"
+            >
+              Block
+            </button>
+          </div>
+          <div
+            class="css-rd7ld2-contact-root"
+          >
+            <div
+              class="css-nfzrom-avatar-root"
+            >
+              <svg
+                class="css-1p0isk4-avatar"
+                viewBox="0 0 32 32"
+              >
+                <path
+                  d="M0 32v-3c0-4.484 5.649-6.179 13.099-6.862-1.636-1.014-2.92-3.864-3.589-6.14-0.003 0-0.006 0.002-0.010 0.002-0.068 0-1.5-1.791-1.5-4 0-1.938-0.138-3.554 1.007-3.92-0.001-0.027-0.007-0.053-0.007-0.080 0-2.457 1.271-4.61 3.187-5.859 0.495-1.235 2.004-2.141 3.813-2.141s3.318 0.906 3.813 2.141c1.916 1.249 3.187 3.402 3.187 5.859 0 0.027-0.006 0.053-0.007 0.080 1.145 0.366 1.007 1.982 1.007 3.92 0 2.209-1.588 4-1.5 4-0.004 0-0.007-0.002-0.010-0.002-0.669 2.275-1.953 5.126-3.589 6.14 7.45 0.683 13.099 2.315 13.099 6.862v3h-32z"
+                />
+              </svg>
+            </div>
+            <span
+              class="css-1g8jtq4"
+            >
+              First Name
+               
+              <strong>
+                Last Name
+              </strong>
+            </span>
+            <span
+              class="css-1iwexof"
+            />
+            <span
+              class="css-1g8jtq4"
+            >
+              <a
+                class="css-uyawua"
+                href="tel:122-345-654"
+              >
+                122-345-654
+              </a>
+            </span>
+            <button
+              class="css-9qt8no-button"
+            >
+              Block
+            </button>
+          </div>
+        </div>,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <p
+              className="css-106ilfp"
+            >
+              Black list
+            </p>,
+            false,
+            Array [
+              <ContactItem
+                firstName="First Name"
+                isBlocked={false}
+                lastName="Last Name"
+                onBlock={[Function]}
+                phoneNumber="122-345-654"
+              />,
+              <ContactItem
+                firstName="First Name"
+                isBlocked={false}
+                lastName="Last Name"
+                onBlock={[Function]}
+                phoneNumber="122-345-654"
+              />,
+            ],
+          ],
+          "className": "css-v8wm0v",
+          "id": "black-list-container",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": <p
+              class="css-106ilfp"
+            >
+              Black list
+            </p>,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Black list",
+              "className": "css-106ilfp",
+            },
+            "ref": null,
+            "rendered": Array [
+              "Black list",
+            ],
+            "type": "p",
+          },
+          Object {
+            "instance": null,
+            "key": "contact-item-0",
+            "nodeType": "function",
+            "props": Object {
+              "company": undefined,
+              "firstName": "First Name",
+              "isBlocked": false,
+              "lastName": "Last Name",
+              "onBlock": [Function],
+              "phoneNumber": "122-345-654",
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": <div
+                class="css-rd7ld2-contact-root"
+              >
+                <div
+                  class="css-nfzrom-avatar-root"
+                >
+                  <svg
+                    class="css-1p0isk4-avatar"
+                    viewBox="0 0 32 32"
+                  >
+                    <path
+                      d="M0 32v-3c0-4.484 5.649-6.179 13.099-6.862-1.636-1.014-2.92-3.864-3.589-6.14-0.003 0-0.006 0.002-0.010 0.002-0.068 0-1.5-1.791-1.5-4 0-1.938-0.138-3.554 1.007-3.92-0.001-0.027-0.007-0.053-0.007-0.080 0-2.457 1.271-4.61 3.187-5.859 0.495-1.235 2.004-2.141 3.813-2.141s3.318 0.906 3.813 2.141c1.916 1.249 3.187 3.402 3.187 5.859 0 0.027-0.006 0.053-0.007 0.080 1.145 0.366 1.007 1.982 1.007 3.92 0 2.209-1.588 4-1.5 4-0.004 0-0.007-0.002-0.010-0.002-0.669 2.275-1.953 5.126-3.589 6.14 7.45 0.683 13.099 2.315 13.099 6.862v3h-32z"
+                    />
+                  </svg>
+                </div>
+                <span
+                  class="css-1g8jtq4"
+                >
+                  First Name
+                   
+                  <strong>
+                    Last Name
+                  </strong>
+                </span>
+                <span
+                  class="css-1iwexof"
+                />
+                <span
+                  class="css-1g8jtq4"
+                >
+                  <a
+                    class="css-uyawua"
+                    href="tel:122-345-654"
+                  >
+                    122-345-654
+                  </a>
+                </span>
+                <button
+                  class="css-9qt8no-button"
+                >
+                  Block
+                </button>
+              </div>,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  <div
+                    className="css-nfzrom-avatar-root"
+                  >
+                    <svg
+                      className="css-1p0isk4-avatar"
+                      viewBox="0 0 32 32"
+                    >
+                      <path
+                        d="M0 32v-3c0-4.484 5.649-6.179 13.099-6.862-1.636-1.014-2.92-3.864-3.589-6.14-0.003 0-0.006 0.002-0.010 0.002-0.068 0-1.5-1.791-1.5-4 0-1.938-0.138-3.554 1.007-3.92-0.001-0.027-0.007-0.053-0.007-0.080 0-2.457 1.271-4.61 3.187-5.859 0.495-1.235 2.004-2.141 3.813-2.141s3.318 0.906 3.813 2.141c1.916 1.249 3.187 3.402 3.187 5.859 0 0.027-0.006 0.053-0.007 0.080 1.145 0.366 1.007 1.982 1.007 3.92 0 2.209-1.588 4-1.5 4-0.004 0-0.007-0.002-0.010-0.002-0.669 2.275-1.953 5.126-3.589 6.14 7.45 0.683 13.099 2.315 13.099 6.862v3h-32z"
+                      />
+                    </svg>
+                  </div>,
+                  <span
+                    className="css-1g8jtq4"
+                  >
+                    First Name
+                     
+                    <strong>
+                      Last Name
+                    </strong>
+                  </span>,
+                  <span
+                    className="css-1iwexof"
+                  />,
+                  <span
+                    className="css-1g8jtq4"
+                  >
+                    <a
+                      className="css-uyawua"
+                      href="tel:122-345-654"
+                    >
+                      122-345-654
+                    </a>
+                  </span>,
+                  <button
+                    className="css-9qt8no-button"
+                    onClick={[Function]}
+                  >
+                    Block
+                  </button>,
+                ],
+                "className": "css-rd7ld2-contact-root",
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": <div
+                    class="css-nfzrom-avatar-root"
+                  >
+                    <svg
+                      class="css-1p0isk4-avatar"
+                      viewBox="0 0 32 32"
+                    >
+                      <path
+                        d="M0 32v-3c0-4.484 5.649-6.179 13.099-6.862-1.636-1.014-2.92-3.864-3.589-6.14-0.003 0-0.006 0.002-0.010 0.002-0.068 0-1.5-1.791-1.5-4 0-1.938-0.138-3.554 1.007-3.92-0.001-0.027-0.007-0.053-0.007-0.080 0-2.457 1.271-4.61 3.187-5.859 0.495-1.235 2.004-2.141 3.813-2.141s3.318 0.906 3.813 2.141c1.916 1.249 3.187 3.402 3.187 5.859 0 0.027-0.006 0.053-0.007 0.080 1.145 0.366 1.007 1.982 1.007 3.92 0 2.209-1.588 4-1.5 4-0.004 0-0.007-0.002-0.010-0.002-0.669 2.275-1.953 5.126-3.589 6.14 7.45 0.683 13.099 2.315 13.099 6.862v3h-32z"
+                      />
+                    </svg>
+                  </div>,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": <svg
+                      className="css-1p0isk4-avatar"
+                      viewBox="0 0 32 32"
+                    >
+                      <path
+                        d="M0 32v-3c0-4.484 5.649-6.179 13.099-6.862-1.636-1.014-2.92-3.864-3.589-6.14-0.003 0-0.006 0.002-0.010 0.002-0.068 0-1.5-1.791-1.5-4 0-1.938-0.138-3.554 1.007-3.92-0.001-0.027-0.007-0.053-0.007-0.080 0-2.457 1.271-4.61 3.187-5.859 0.495-1.235 2.004-2.141 3.813-2.141s3.318 0.906 3.813 2.141c1.916 1.249 3.187 3.402 3.187 5.859 0 0.027-0.006 0.053-0.007 0.080 1.145 0.366 1.007 1.982 1.007 3.92 0 2.209-1.588 4-1.5 4-0.004 0-0.007-0.002-0.010-0.002-0.669 2.275-1.953 5.126-3.589 6.14 7.45 0.683 13.099 2.315 13.099 6.862v3h-32z"
+                      />
+                    </svg>,
+                    "className": "css-nfzrom-avatar-root",
+                  },
+                  "ref": null,
+                  "rendered": Array [
+                    Object {
+                      "instance": <svg
+                        class="css-1p0isk4-avatar"
+                        viewBox="0 0 32 32"
+                      >
+                        <path
+                          d="M0 32v-3c0-4.484 5.649-6.179 13.099-6.862-1.636-1.014-2.92-3.864-3.589-6.14-0.003 0-0.006 0.002-0.010 0.002-0.068 0-1.5-1.791-1.5-4 0-1.938-0.138-3.554 1.007-3.92-0.001-0.027-0.007-0.053-0.007-0.080 0-2.457 1.271-4.61 3.187-5.859 0.495-1.235 2.004-2.141 3.813-2.141s3.318 0.906 3.813 2.141c1.916 1.249 3.187 3.402 3.187 5.859 0 0.027-0.006 0.053-0.007 0.080 1.145 0.366 1.007 1.982 1.007 3.92 0 2.209-1.588 4-1.5 4-0.004 0-0.007-0.002-0.010-0.002-0.669 2.275-1.953 5.126-3.589 6.14 7.45 0.683 13.099 2.315 13.099 6.862v3h-32z"
+                        />
+                      </svg>,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": <path
+                          d="M0 32v-3c0-4.484 5.649-6.179 13.099-6.862-1.636-1.014-2.92-3.864-3.589-6.14-0.003 0-0.006 0.002-0.010 0.002-0.068 0-1.5-1.791-1.5-4 0-1.938-0.138-3.554 1.007-3.92-0.001-0.027-0.007-0.053-0.007-0.080 0-2.457 1.271-4.61 3.187-5.859 0.495-1.235 2.004-2.141 3.813-2.141s3.318 0.906 3.813 2.141c1.916 1.249 3.187 3.402 3.187 5.859 0 0.027-0.006 0.053-0.007 0.080 1.145 0.366 1.007 1.982 1.007 3.92 0 2.209-1.588 4-1.5 4-0.004 0-0.007-0.002-0.010-0.002-0.669 2.275-1.953 5.126-3.589 6.14 7.45 0.683 13.099 2.315 13.099 6.862v3h-32z"
+                        />,
+                        "className": "css-1p0isk4-avatar",
+                        "viewBox": "0 0 32 32",
+                      },
+                      "ref": null,
+                      "rendered": Array [
+                        Object {
+                          "instance": <path
+                            d="M0 32v-3c0-4.484 5.649-6.179 13.099-6.862-1.636-1.014-2.92-3.864-3.589-6.14-0.003 0-0.006 0.002-0.010 0.002-0.068 0-1.5-1.791-1.5-4 0-1.938-0.138-3.554 1.007-3.92-0.001-0.027-0.007-0.053-0.007-0.080 0-2.457 1.271-4.61 3.187-5.859 0.495-1.235 2.004-2.141 3.813-2.141s3.318 0.906 3.813 2.141c1.916 1.249 3.187 3.402 3.187 5.859 0 0.027-0.006 0.053-0.007 0.080 1.145 0.366 1.007 1.982 1.007 3.92 0 2.209-1.588 4-1.5 4-0.004 0-0.007-0.002-0.010-0.002-0.669 2.275-1.953 5.126-3.589 6.14 7.45 0.683 13.099 2.315 13.099 6.862v3h-32z"
+                          />,
+                          "key": undefined,
+                          "nodeType": "host",
+                          "props": Object {
+                            "d": "M0 32v-3c0-4.484 5.649-6.179 13.099-6.862-1.636-1.014-2.92-3.864-3.589-6.14-0.003 0-0.006 0.002-0.010 0.002-0.068 0-1.5-1.791-1.5-4 0-1.938-0.138-3.554 1.007-3.92-0.001-0.027-0.007-0.053-0.007-0.080 0-2.457 1.271-4.61 3.187-5.859 0.495-1.235 2.004-2.141 3.813-2.141s3.318 0.906 3.813 2.141c1.916 1.249 3.187 3.402 3.187 5.859 0 0.027-0.006 0.053-0.007 0.080 1.145 0.366 1.007 1.982 1.007 3.92 0 2.209-1.588 4-1.5 4-0.004 0-0.007-0.002-0.010-0.002-0.669 2.275-1.953 5.126-3.589 6.14 7.45 0.683 13.099 2.315 13.099 6.862v3h-32z",
+                          },
+                          "ref": null,
+                          "rendered": Array [
+                            undefined,
+                          ],
+                          "type": "path",
+                        },
+                      ],
+                      "type": "svg",
+                    },
+                  ],
+                  "type": "div",
+                },
+                Object {
+                  "instance": <span
+                    class="css-1g8jtq4"
+                  >
+                    First Name
+                     
+                    <strong>
+                      Last Name
+                    </strong>
+                  </span>,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": Array [
+                      "First Name",
+                      " ",
+                      <strong>
+                        Last Name
+                      </strong>,
+                    ],
+                    "className": "css-1g8jtq4",
+                  },
+                  "ref": null,
+                  "rendered": Array [
+                    "First Name",
+                    " ",
+                    Object {
+                      "instance": <strong>
+                        Last Name
+                      </strong>,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": "Last Name",
+                      },
+                      "ref": null,
+                      "rendered": Array [
+                        "Last Name",
+                      ],
+                      "type": "strong",
+                    },
+                  ],
+                  "type": "span",
+                },
+                Object {
+                  "instance": <span
+                    class="css-1iwexof"
+                  />,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": undefined,
+                    "className": "css-1iwexof",
+                  },
+                  "ref": null,
+                  "rendered": Array [
+                    undefined,
+                  ],
+                  "type": "span",
+                },
+                Object {
+                  "instance": <span
+                    class="css-1g8jtq4"
+                  >
+                    <a
+                      class="css-uyawua"
+                      href="tel:122-345-654"
+                    >
+                      122-345-654
+                    </a>
+                  </span>,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": <a
+                      className="css-uyawua"
+                      href="tel:122-345-654"
+                    >
+                      122-345-654
+                    </a>,
+                    "className": "css-1g8jtq4",
+                  },
+                  "ref": null,
+                  "rendered": Array [
+                    Object {
+                      "instance": <a
+                        class="css-uyawua"
+                        href="tel:122-345-654"
+                      >
+                        122-345-654
+                      </a>,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": "122-345-654",
+                        "className": "css-uyawua",
+                        "href": "tel:122-345-654",
+                      },
+                      "ref": null,
+                      "rendered": Array [
+                        "122-345-654",
+                      ],
+                      "type": "a",
+                    },
+                  ],
+                  "type": "span",
+                },
+                Object {
+                  "instance": <button
+                    class="css-9qt8no-button"
+                  >
+                    Block
+                  </button>,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "Block",
+                    "className": "css-9qt8no-button",
+                    "onClick": [Function],
+                  },
+                  "ref": null,
+                  "rendered": Array [
+                    "Block",
+                  ],
+                  "type": "button",
+                },
+              ],
+              "type": "div",
+            },
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": "contact-item-1",
+            "nodeType": "function",
+            "props": Object {
+              "company": undefined,
+              "firstName": "First Name",
+              "isBlocked": false,
+              "lastName": "Last Name",
+              "onBlock": [Function],
+              "phoneNumber": "122-345-654",
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": <div
+                class="css-rd7ld2-contact-root"
+              >
+                <div
+                  class="css-nfzrom-avatar-root"
+                >
+                  <svg
+                    class="css-1p0isk4-avatar"
+                    viewBox="0 0 32 32"
+                  >
+                    <path
+                      d="M0 32v-3c0-4.484 5.649-6.179 13.099-6.862-1.636-1.014-2.92-3.864-3.589-6.14-0.003 0-0.006 0.002-0.010 0.002-0.068 0-1.5-1.791-1.5-4 0-1.938-0.138-3.554 1.007-3.92-0.001-0.027-0.007-0.053-0.007-0.080 0-2.457 1.271-4.61 3.187-5.859 0.495-1.235 2.004-2.141 3.813-2.141s3.318 0.906 3.813 2.141c1.916 1.249 3.187 3.402 3.187 5.859 0 0.027-0.006 0.053-0.007 0.080 1.145 0.366 1.007 1.982 1.007 3.92 0 2.209-1.588 4-1.5 4-0.004 0-0.007-0.002-0.010-0.002-0.669 2.275-1.953 5.126-3.589 6.14 7.45 0.683 13.099 2.315 13.099 6.862v3h-32z"
+                    />
+                  </svg>
+                </div>
+                <span
+                  class="css-1g8jtq4"
+                >
+                  First Name
+                   
+                  <strong>
+                    Last Name
+                  </strong>
+                </span>
+                <span
+                  class="css-1iwexof"
+                />
+                <span
+                  class="css-1g8jtq4"
+                >
+                  <a
+                    class="css-uyawua"
+                    href="tel:122-345-654"
+                  >
+                    122-345-654
+                  </a>
+                </span>
+                <button
+                  class="css-9qt8no-button"
+                >
+                  Block
+                </button>
+              </div>,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  <div
+                    className="css-nfzrom-avatar-root"
+                  >
+                    <svg
+                      className="css-1p0isk4-avatar"
+                      viewBox="0 0 32 32"
+                    >
+                      <path
+                        d="M0 32v-3c0-4.484 5.649-6.179 13.099-6.862-1.636-1.014-2.92-3.864-3.589-6.14-0.003 0-0.006 0.002-0.010 0.002-0.068 0-1.5-1.791-1.5-4 0-1.938-0.138-3.554 1.007-3.92-0.001-0.027-0.007-0.053-0.007-0.080 0-2.457 1.271-4.61 3.187-5.859 0.495-1.235 2.004-2.141 3.813-2.141s3.318 0.906 3.813 2.141c1.916 1.249 3.187 3.402 3.187 5.859 0 0.027-0.006 0.053-0.007 0.080 1.145 0.366 1.007 1.982 1.007 3.92 0 2.209-1.588 4-1.5 4-0.004 0-0.007-0.002-0.010-0.002-0.669 2.275-1.953 5.126-3.589 6.14 7.45 0.683 13.099 2.315 13.099 6.862v3h-32z"
+                      />
+                    </svg>
+                  </div>,
+                  <span
+                    className="css-1g8jtq4"
+                  >
+                    First Name
+                     
+                    <strong>
+                      Last Name
+                    </strong>
+                  </span>,
+                  <span
+                    className="css-1iwexof"
+                  />,
+                  <span
+                    className="css-1g8jtq4"
+                  >
+                    <a
+                      className="css-uyawua"
+                      href="tel:122-345-654"
+                    >
+                      122-345-654
+                    </a>
+                  </span>,
+                  <button
+                    className="css-9qt8no-button"
+                    onClick={[Function]}
+                  >
+                    Block
+                  </button>,
+                ],
+                "className": "css-rd7ld2-contact-root",
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": <div
+                    class="css-nfzrom-avatar-root"
+                  >
+                    <svg
+                      class="css-1p0isk4-avatar"
+                      viewBox="0 0 32 32"
+                    >
+                      <path
+                        d="M0 32v-3c0-4.484 5.649-6.179 13.099-6.862-1.636-1.014-2.92-3.864-3.589-6.14-0.003 0-0.006 0.002-0.010 0.002-0.068 0-1.5-1.791-1.5-4 0-1.938-0.138-3.554 1.007-3.92-0.001-0.027-0.007-0.053-0.007-0.080 0-2.457 1.271-4.61 3.187-5.859 0.495-1.235 2.004-2.141 3.813-2.141s3.318 0.906 3.813 2.141c1.916 1.249 3.187 3.402 3.187 5.859 0 0.027-0.006 0.053-0.007 0.080 1.145 0.366 1.007 1.982 1.007 3.92 0 2.209-1.588 4-1.5 4-0.004 0-0.007-0.002-0.010-0.002-0.669 2.275-1.953 5.126-3.589 6.14 7.45 0.683 13.099 2.315 13.099 6.862v3h-32z"
+                      />
+                    </svg>
+                  </div>,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": <svg
+                      className="css-1p0isk4-avatar"
+                      viewBox="0 0 32 32"
+                    >
+                      <path
+                        d="M0 32v-3c0-4.484 5.649-6.179 13.099-6.862-1.636-1.014-2.92-3.864-3.589-6.14-0.003 0-0.006 0.002-0.010 0.002-0.068 0-1.5-1.791-1.5-4 0-1.938-0.138-3.554 1.007-3.92-0.001-0.027-0.007-0.053-0.007-0.080 0-2.457 1.271-4.61 3.187-5.859 0.495-1.235 2.004-2.141 3.813-2.141s3.318 0.906 3.813 2.141c1.916 1.249 3.187 3.402 3.187 5.859 0 0.027-0.006 0.053-0.007 0.080 1.145 0.366 1.007 1.982 1.007 3.92 0 2.209-1.588 4-1.5 4-0.004 0-0.007-0.002-0.010-0.002-0.669 2.275-1.953 5.126-3.589 6.14 7.45 0.683 13.099 2.315 13.099 6.862v3h-32z"
+                      />
+                    </svg>,
+                    "className": "css-nfzrom-avatar-root",
+                  },
+                  "ref": null,
+                  "rendered": Array [
+                    Object {
+                      "instance": <svg
+                        class="css-1p0isk4-avatar"
+                        viewBox="0 0 32 32"
+                      >
+                        <path
+                          d="M0 32v-3c0-4.484 5.649-6.179 13.099-6.862-1.636-1.014-2.92-3.864-3.589-6.14-0.003 0-0.006 0.002-0.010 0.002-0.068 0-1.5-1.791-1.5-4 0-1.938-0.138-3.554 1.007-3.92-0.001-0.027-0.007-0.053-0.007-0.080 0-2.457 1.271-4.61 3.187-5.859 0.495-1.235 2.004-2.141 3.813-2.141s3.318 0.906 3.813 2.141c1.916 1.249 3.187 3.402 3.187 5.859 0 0.027-0.006 0.053-0.007 0.080 1.145 0.366 1.007 1.982 1.007 3.92 0 2.209-1.588 4-1.5 4-0.004 0-0.007-0.002-0.010-0.002-0.669 2.275-1.953 5.126-3.589 6.14 7.45 0.683 13.099 2.315 13.099 6.862v3h-32z"
+                        />
+                      </svg>,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": <path
+                          d="M0 32v-3c0-4.484 5.649-6.179 13.099-6.862-1.636-1.014-2.92-3.864-3.589-6.14-0.003 0-0.006 0.002-0.010 0.002-0.068 0-1.5-1.791-1.5-4 0-1.938-0.138-3.554 1.007-3.92-0.001-0.027-0.007-0.053-0.007-0.080 0-2.457 1.271-4.61 3.187-5.859 0.495-1.235 2.004-2.141 3.813-2.141s3.318 0.906 3.813 2.141c1.916 1.249 3.187 3.402 3.187 5.859 0 0.027-0.006 0.053-0.007 0.080 1.145 0.366 1.007 1.982 1.007 3.92 0 2.209-1.588 4-1.5 4-0.004 0-0.007-0.002-0.010-0.002-0.669 2.275-1.953 5.126-3.589 6.14 7.45 0.683 13.099 2.315 13.099 6.862v3h-32z"
+                        />,
+                        "className": "css-1p0isk4-avatar",
+                        "viewBox": "0 0 32 32",
+                      },
+                      "ref": null,
+                      "rendered": Array [
+                        Object {
+                          "instance": <path
+                            d="M0 32v-3c0-4.484 5.649-6.179 13.099-6.862-1.636-1.014-2.92-3.864-3.589-6.14-0.003 0-0.006 0.002-0.010 0.002-0.068 0-1.5-1.791-1.5-4 0-1.938-0.138-3.554 1.007-3.92-0.001-0.027-0.007-0.053-0.007-0.080 0-2.457 1.271-4.61 3.187-5.859 0.495-1.235 2.004-2.141 3.813-2.141s3.318 0.906 3.813 2.141c1.916 1.249 3.187 3.402 3.187 5.859 0 0.027-0.006 0.053-0.007 0.080 1.145 0.366 1.007 1.982 1.007 3.92 0 2.209-1.588 4-1.5 4-0.004 0-0.007-0.002-0.010-0.002-0.669 2.275-1.953 5.126-3.589 6.14 7.45 0.683 13.099 2.315 13.099 6.862v3h-32z"
+                          />,
+                          "key": undefined,
+                          "nodeType": "host",
+                          "props": Object {
+                            "d": "M0 32v-3c0-4.484 5.649-6.179 13.099-6.862-1.636-1.014-2.92-3.864-3.589-6.14-0.003 0-0.006 0.002-0.010 0.002-0.068 0-1.5-1.791-1.5-4 0-1.938-0.138-3.554 1.007-3.92-0.001-0.027-0.007-0.053-0.007-0.080 0-2.457 1.271-4.61 3.187-5.859 0.495-1.235 2.004-2.141 3.813-2.141s3.318 0.906 3.813 2.141c1.916 1.249 3.187 3.402 3.187 5.859 0 0.027-0.006 0.053-0.007 0.080 1.145 0.366 1.007 1.982 1.007 3.92 0 2.209-1.588 4-1.5 4-0.004 0-0.007-0.002-0.010-0.002-0.669 2.275-1.953 5.126-3.589 6.14 7.45 0.683 13.099 2.315 13.099 6.862v3h-32z",
+                          },
+                          "ref": null,
+                          "rendered": Array [
+                            undefined,
+                          ],
+                          "type": "path",
+                        },
+                      ],
+                      "type": "svg",
+                    },
+                  ],
+                  "type": "div",
+                },
+                Object {
+                  "instance": <span
+                    class="css-1g8jtq4"
+                  >
+                    First Name
+                     
+                    <strong>
+                      Last Name
+                    </strong>
+                  </span>,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": Array [
+                      "First Name",
+                      " ",
+                      <strong>
+                        Last Name
+                      </strong>,
+                    ],
+                    "className": "css-1g8jtq4",
+                  },
+                  "ref": null,
+                  "rendered": Array [
+                    "First Name",
+                    " ",
+                    Object {
+                      "instance": <strong>
+                        Last Name
+                      </strong>,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": "Last Name",
+                      },
+                      "ref": null,
+                      "rendered": Array [
+                        "Last Name",
+                      ],
+                      "type": "strong",
+                    },
+                  ],
+                  "type": "span",
+                },
+                Object {
+                  "instance": <span
+                    class="css-1iwexof"
+                  />,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": undefined,
+                    "className": "css-1iwexof",
+                  },
+                  "ref": null,
+                  "rendered": Array [
+                    undefined,
+                  ],
+                  "type": "span",
+                },
+                Object {
+                  "instance": <span
+                    class="css-1g8jtq4"
+                  >
+                    <a
+                      class="css-uyawua"
+                      href="tel:122-345-654"
+                    >
+                      122-345-654
+                    </a>
+                  </span>,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": <a
+                      className="css-uyawua"
+                      href="tel:122-345-654"
+                    >
+                      122-345-654
+                    </a>,
+                    "className": "css-1g8jtq4",
+                  },
+                  "ref": null,
+                  "rendered": Array [
+                    Object {
+                      "instance": <a
+                        class="css-uyawua"
+                        href="tel:122-345-654"
+                      >
+                        122-345-654
+                      </a>,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": "122-345-654",
+                        "className": "css-uyawua",
+                        "href": "tel:122-345-654",
+                      },
+                      "ref": null,
+                      "rendered": Array [
+                        "122-345-654",
+                      ],
+                      "type": "a",
+                    },
+                  ],
+                  "type": "span",
+                },
+                Object {
+                  "instance": <button
+                    class="css-9qt8no-button"
+                  >
+                    Block
+                  </button>,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "Block",
+                    "className": "css-9qt8no-button",
+                    "onClick": [Function],
+                  },
+                  "ref": null,
+                  "rendered": Array [
+                    "Block",
+                  ],
+                  "type": "button",
+                },
+              ],
+              "type": "div",
+            },
+            "type": [Function],
+          },
+        ],
+        "type": "div",
+      },
+      "type": [Function],
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+  },
+}
+`;
